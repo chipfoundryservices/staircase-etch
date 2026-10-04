@@ -87,7 +87,7 @@ Parameter                  Value (illustrative)
 C₄F₆ / O₂ / Ar             15 / 12 / 300 sccm
 Pressure                   20 mTorr
 Source power (ICP)         1000 W
-Bias power                 400 W (peak ion energy ~300 eV)
+Bias power                 250 W (mean ion energy ~200 eV)
 Wafer temperature          20 °C
 
 Results:
@@ -128,7 +128,7 @@ Parameter                  Value (illustrative)
 CH₃F / O₂ / Ar             60 / 40 / 100 sccm
 Pressure                   30 mTorr
 Source power (ICP)         800 W
-Bias power                 150 W (peak ion energy ~120 eV)
+Bias power                 150 W (mean ion energy ~120 eV)
 Wafer temperature          20 °C
 
 Results:
