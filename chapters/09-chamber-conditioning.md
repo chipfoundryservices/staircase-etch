@@ -90,11 +90,20 @@ Ion-assisted reaction probability for SiO₂ ~10⁻³ (illustrative),
   Etch rate ≈ 2.9 × 10¹⁷ × 10⁻³ / 4 / 2.3 × 10²² ≈ 3 × 10⁻⁹ cm/s
             ≈ 0.03 nm/s → ~0.3 nm per 10 s release period
 
-The field and outermost treads see every trim of the mask:
-  8 trims × 0.3 nm ≈ 2.4 nm of tread-oxide loss from wall fluorine
+Nitride risers etch faster than oxide in F, so exposed riser
+nitride recesses by a few tenths of a nanometer to ~1 nm per trim.
 ```
 
-The tread-oxide budget (Chapter 11) must include this term. Nitride risers etch faster than oxide in F, so riser nitride recesses slightly at each exposed riser.
+These losses do less harm than they appear to. The next pair etch removes the thinned tread oxide and the notched riser layers anyway, and its selective stop lands on a fresh interface (Chapter 11.2). The losses matter in three places:
+
+```
+1. Non-uniform thinning makes the next oxide step clear unevenly;
+   the overetch absorbs this, but it must be counted in u_d
+2. Any fluorine present during the final strip, after the last etch of
+   a mask, lands directly on finished treads (Chapter 11.1.2)
+3. Fluorocarbon fragments released with the fluorine can redeposit on
+   newly exposed strips and micromask them (Chapter 10.4)
+```
 
 ---
 
@@ -327,7 +336,7 @@ A pillar under a word-line contact makes the contact land on a higher layer than
 
 1. **The wall is a reservoir.** It fills with polymer during each etch and empties during each trim.
 
-2. **Wall fluorine speeds up the trim and etches treads.** A few percent F during the release period changes tread width by nanometers and takes oxide from exposed treads.
+2. **Wall fluorine speeds up the trim and etches treads.** A few percent F during the release period changes tread width by nanometers. The oxide it takes from exposed treads is mostly erased by the next selective etch, except during the final strip.
 
 3. **The inventory model predicts drift.** If the trim removes most wall polymer each cycle, the sequence repeats. If not, fluorine release grows through the mask, and tread width drifts.
 

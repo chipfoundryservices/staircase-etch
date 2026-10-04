@@ -265,7 +265,7 @@ CF₄ (1–5%)           Raises rate strongly (2–5×); F          Etches every
 Ar / He              Dilution; helps stability               Lower rate
 ```
 
-The fluorine trade-off deserves emphasis. In a photoresist ash, a few percent CF₄ is a standard rate booster. In a staircase trim, **all the treads formed so far are exposed during every trim.** Fluorine that etches 0.5 nm of oxide per trim takes 3.5 nm from the outermost tread of a nine-level mask (seven trims after it is exposed) and 4 nm from the field beyond it (all eight trims). Most staircase trims are fluorine-free by design, and the fluorine that arrives anyway, released from the walls, is a control problem (Chapter 9).
+The fluorine trade-off deserves emphasis. In a photoresist ash, a few percent CF₄ is a standard rate booster. In a staircase trim, **all the treads formed so far are exposed during every trim.** Fluorine thins every exposed tread oxide and attacks every exposed riser nitride, by a slightly different amount in each cycle. The next selective pair etch erases most of this structurally (Chapter 11.2), but the trim itself becomes harder to control: its rate depends on fluorine content, the fluorine content depends on wall state, and the resist surface becomes fluorinated, which shifts the trim ratio. Most staircase trims are fluorine-free by design, and the fluorine that arrives anyway, released from the walls, is a control problem (Chapter 9).
 
 ### 4.5.4 Riser Oxidation
 
@@ -402,7 +402,7 @@ OP stacks                          C₄F₈/O₂/Ar oxide step + HBr/O₂ poly s
 
 3. The trim has E_a = 0.45 eV and the wafer is at 20 °C. Compute the fractional change in trim rate for +1 °C. At R_L = 0.40 µm/min and a 90 s trim, what tread width change results?
 
-4. A trim recipe includes 3% CF₄, which etches SiO₂ at 0.6 nm per trim. For a mask of 8 trims, how much oxide is removed from the outermost tread? Given a 25 nm tread oxide and a 15 nm minimum, how much of the tread-oxide budget does this use?
+4. A trim recipe includes 3% CF₄, which roughly triples the trim rate and etches exposed SiO₂ at 0.6 nm per trim. The CF₄ MFC holds ±2% of setpoint, and the trim rate rises ~4% for each 10% increase in CF₄ flow. Estimate the tread-width variation this adds at w = 0.60 µm. Compare it with a fluorine-free trim whose rate varies ±0.5% with O₂ flow. Why is the oxide loss itself not the main concern?
 
 5. Lateral trim induction time varies between 3 and 6 s from cycle to cycle. At R_L = 0.40 µm/min, what tread-width range results? Propose two ways to reduce it and explain the cost of each.
 
