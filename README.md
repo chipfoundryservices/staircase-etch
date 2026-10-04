@@ -274,7 +274,7 @@ Numbers in this book come from established plasma physics, published literature 
 **Part I (Chapters 1–4):** Complete  
 **Part II (Chapters 5–9):** Complete  
 **Part III (Chapters 10–14):** Complete  
-**Part IV (Chapters 15–16):** Planned  
+**Part IV (Chapters 15–16):** Complete  
 **Back Matter (Appendices A–G, Glossary):** Planned  
 
 ---
